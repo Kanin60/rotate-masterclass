@@ -1,7 +1,8 @@
 
 
-$('button').click(function () {
-    console.log('hello world');
-    $('.kasse').toggleClass('kasse-rotate');
-  
-});
+$(function(){
+    $('button').click(function () {
+        $('.kasse').toggleClass('kasse-rotate');
+      
+    });
+})
