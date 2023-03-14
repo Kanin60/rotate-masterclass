@@ -39,11 +39,15 @@ p {
     height: 100px;
     margin: 20px;
     border-radius: 20px;
-    transition: all 2s ease-in-out;
+    -webkit-transition: -webkit-transform .5000s ease-in-out;
+    -ms-transition: -ms-transform .5000s ease-in-out;
+    transition: transform .5000s ease-in-out;  
 }
 
 .box1:hover {
-    transition: rotate(360deg);
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     
 }
 
