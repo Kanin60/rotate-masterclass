@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+h1{
+    font-size: 4.8rem;
+    text-align: center;
+}
+h2{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+.opgave-one{
+    max-width: 1080px;
+    margin:  1rem auto 0;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+header{
+    background-image: url(../assets/kids.png);
+    background-position: bottom center;
+    background-size: cover;
+    height: 30vh;
+    display: grid;
+    place-content: center;
+    color: #fff;
+    border-radius: 0.8rem;
+    max-width: 1080px;
+    margin:  1rem auto 0;
+}
+@media (max-width: 1100px) {
+    header{
+        margin: 1rem 1rem 0;
+    }
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.opgave{
+    border: 2px solid black;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+}
+.opgave ul{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.yellow{
+    background-color: #fedc98;
+}
+.green{
+    background-color: #7fbc95;
+}
+.red{
+    background-color: #fb8c8c;
+}
+/* --------------------------------- */
+/* skriv din kode her under */
+
+.kode{
+    min-height: 50vh;
+    border: 2px solid black;
+    margin: 1rem;
+    border-radius: 1rem;
+}

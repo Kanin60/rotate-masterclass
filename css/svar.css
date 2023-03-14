@@ -1,0 +1,19 @@
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #fedc98;
+    border: 2px solid;
+    transition: transform 1s ease;
+    border-radius: 0.8rem;
+  }
+  
+  .square:hover {
+    transform: rotate(360deg);
+    transform-origin: center center;
+  }
+.center{
+    display: grid;
+    place-content: center;
+}
+  
